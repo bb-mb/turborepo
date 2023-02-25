@@ -1,0 +1,13 @@
+{
+  "name": "@packages/eslint-config-custom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "eslint-config-prettier": "^8.6.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.53.0"
+  }
+}
