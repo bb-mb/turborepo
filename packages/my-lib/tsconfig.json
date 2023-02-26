@@ -1,6 +1,7 @@
 {
   "extends": "@packages/tsconfig/nest.json",
   "compilerOptions": {
+    "jsx": "react",
     "outDir": "dist",
     "incremental": false
   }
