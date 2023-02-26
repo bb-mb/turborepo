@@ -4,6 +4,10 @@
     "build": {
       "outputs": [".next/**", "dist/**"]
     },
-    "lint": {}
+    "lint": {},
+    "dev": {
+      "persistent": true,
+      "cache": false
+    }
   }
 }
