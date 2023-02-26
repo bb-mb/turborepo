@@ -1,7 +1,7 @@
 {
   "name": "@packages/my-lib",
   "version": "1.0.0",
-  "main": "./dist/index",
+  "main": "./dist/index.js",
   "license": "MIT",
   "private": true,
   "dependencies": {

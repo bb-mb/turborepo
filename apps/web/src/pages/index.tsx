@@ -1,11 +1,7 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import { Inter } from 'next/font/google';
 import styles from '@/styles/Home.module.css';
 
-import { add } from '@packages/my-lib';
-
-const inter = Inter({ subsets: ['latin'] });
+import { add, minus } from '@packages/my-lib';
 
 export default function Home() {
   return (
@@ -17,7 +13,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <p>{add(10, 20)}</p>
+        <p>20 + 10 : {add(20, 10)}</p>
+        <p>20 - 10 : {minus(20, 10)}</p>
       </main>
     </>
   );
