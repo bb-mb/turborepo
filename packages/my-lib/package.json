@@ -7,7 +7,18 @@
   "dependencies": {
     "@packages/tsconfig": "*"
   },
+  "tsup": {
+    "entry": [
+      "src/index.ts"
+    ],
+    "splitting": true,
+    "sourcemap": true,
+    "clean": true
+  },
   "scripts": {
-    "build": "tsc"
+    "build": "tsup --dts"
+  },
+  "devDependencies": {
+    "tsup": "^6.6.3"
   }
 }
