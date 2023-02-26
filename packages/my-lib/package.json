@@ -1,10 +1,13 @@
 {
   "name": "@packages/my-lib",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/index",
   "license": "MIT",
   "private": true,
   "dependencies": {
     "@packages/tsconfig": "*"
+  },
+  "scripts": {
+    "build": "tsc"
   }
 }

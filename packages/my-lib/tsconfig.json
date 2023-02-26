@@ -1,3 +1,6 @@
 {
-  "extends": "@packages/tsconfig/next.json"
+  "extends": "@packages/tsconfig/nest.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  }
 }
