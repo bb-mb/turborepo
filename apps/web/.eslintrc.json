@@ -1,7 +1,7 @@
 {
   "extends": [
     "next/core-web-vitals",
-    "@packages/eslint-config-custom2",
-    "@packages/eslint-config-custom"
+    "@packages/eslint-config-custom",
+    "@packages/eslint-config-custom2"
   ]
 }
